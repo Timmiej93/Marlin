@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Timmiej93)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(thisiskeithb - Ender-3, Timmiej93 - Ender2)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -1426,8 +1426,8 @@
 
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 205
-#define PREHEAT_1_TEMP_BED     65
+#define PREHEAT_1_TEMP_HOTEND 200
+#define PREHEAT_1_TEMP_BED     50
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "ABS"
@@ -1938,9 +1938,6 @@
 // (For CR-10 owners who want to replace the Melzi Creality board but retain the display)
 //
 // #define CR10_STOCKDISPLAY
-
-// #define ENDER2_DISPLAY
-
 //
 // ANET and Tronxy Graphical Controller
 //
